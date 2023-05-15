@@ -1,0 +1,193 @@
+
+
+     
+    #name{
+    
+    font-size: 50px;
+    font-weight: 700;
+    padding: 40px;
+    color: aliceblue;
+    text-align: center;
+}
+
+
+.horizontal-list{
+    background-color:rgb(63, 183, 185);
+    height: 250px;
+    text-align: center;
+    list-style: none;
+    padding-top: 30px;
+    border: 3px solid rgb(45, 152, 184);
+
+}
+
+.horizontal-list li{
+    display: inline-block;
+    margin: 0px 8px 8px 0px;
+    padding: 10px;
+}
+
+.horizontal-list li a{
+    color: white;
+    text-decoration: none;
+    transition: color 0.5s,border-bottom 4s;
+}
+
+.horizontal-list li a:hover{
+    color: rgb(36, 44, 74);
+    border-bottom: 1px solid rgb(69, 37, 187) ;
+}
+
+#image{
+    margin: auto;
+    text-align: center;
+    margin-top: -70px;
+}
+#image img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    box-shadow: 0px 0px 5px 5px white;
+}
+#contact-details{
+    margin: 10px 100px;
+    padding: 10px 40px 10px 40px;
+    text-align: center;
+    border-top: 5px solid rgb(12,98,110);
+    border-bottom: 5px solid hwb(187 5% 57%);
+    font-size: 1.5rem;
+
+}
+#career_objective{
+margin: 10px 100px;
+color: rgb(19, 141, 100);
+font-size: 1.5rem;
+word-spacing: 3px;
+font-weight: 200;
+font-style: normal;
+}
+#education{
+    text-align: center;
+    border-top: 5px solid rgb(166, 219, 226);
+    color: rgb(19, 81, 81) ;
+    font-size: 2rem;
+    font-weight: 300;
+    margin: 10px 100px;
+    padding: 10px;
+}
+#acadmic{
+    display: inline-block;
+}
+
+#bca{
+width: 350px;    display: inline-block;
+border: 4px solid rgb(45, 150, 154);
+
+}
+#twelth{
+    width: 350px;    display: inline-block;
+    border: 4px solid rgb(45, 150, 154);
+
+}
+#tenth{
+    width: 350px;    
+    display: inline-block;
+    border: 4px solid rgb(45, 150, 154);
+
+}
+#skills{
+    margin: 10px 100px;
+    color: rgb(19, 81, 81);
+    font-size: 2rem;
+    font-weight: 300;
+    border-top: 4px solid  rgb(45, 150, 154);
+
+}
+section h1{
+    text-align: center;
+}
+#skills #block{
+    flex-direction: row;
+    justify-content: space-around;
+    display: flex;
+flex-wrap: wrap;
+}
+
+#skills #block #skill{
+    margin: 30px;
+
+    width: 200px;
+    background-color: rgb(115, 191, 214);
+    border-radius: 20%;
+    align-items: center;
+
+}
+#skills #block #skill span{
+padding: 20px;
+width: 60%;
+position: relative;
+color: white;
+background-color: rgb(4, 0, 255);
+display: block;
+border-radius: 20%;
+justify-content: space-between;
+
+}
+#certifications{
+   margin: 10px 100px;
+    color: rgb(19, 81, 81);
+    font-size: 2rem;
+    font-weight: 300;
+    border-top: 4px solid  rgb(45, 150, 154);
+}
+#mainblock{
+    position: relative;
+
+}
+#cert{
+    position: relative;
+    padding: 5px;
+    width: 40%;
+    height: 150px;
+    margin: 5px;
+}
+#cert:nth-child(2n){
+margin: 20px 55% 5px;}
+#cert:nth-child(2n+1){
+    margin: 5px 5% 5px;}
+#time-line{
+    position: absolute;
+    margin-top: -500px;
+    left: 50%;
+    border: 3px dashed rgb(93, 93, 130);
+    width: 0px;
+    height: 500px;
+}
+#indicator{
+    position: absolute;
+    margin-top: -400px;
+    left: 50%;
+    height: 0.5rem;
+    width: 0.5rem;
+    border-radius: 50%;
+    background-color: blue;
+}
+#last{
+    border-top: 4px solid rgb(31, 103, 114);
+    margin: 30px 100px;
+}
+#last div{
+    justify-content: center ;
+    font-size: 2rem;
+    font-weight: 300;
+    border-top: 4px solid  rgb(45, 150, 154);
+    height: 400px;
+    width: 1200px;
+    left: -300px;
+    background-image: linear-gradient(rgb(96, 96, 193),rgb(15, 14, 102));
+}
+#text{
+    color: white;
+    text-align: center;
+    margin-top:100px;
+}
