@@ -12,12 +12,12 @@
 
 
 .horizontal-list{
-    background-color:rgb(63, 183, 185);
+    background-color:rgb(107, 154, 154);
     height: 250px;
     text-align: center;
     list-style: none;
     padding-top: 30px;
-    border: 3px solid rgb(45, 152, 184);
+    border: 3px solid rgb(48, 63, 69);
 
 }
 
@@ -68,8 +68,8 @@ font-style: normal;
 }
 #education{
     text-align: center;
-    border-top: 5px solid rgb(166, 219, 226);
-    color: rgb(19, 81, 81) ;
+    border-top: 5px solid rgb(114, 187, 197);
+    color: rgb(36, 129, 129) ;
     font-size: 2rem;
     font-weight: 300;
     margin: 10px 100px;
@@ -97,10 +97,10 @@ border: 4px solid rgb(45, 150, 154);
 }
 #skills{
     margin: 10px 100px;
-    color: rgb(19, 81, 81);
+    color: rgb(57, 147, 147);
     font-size: 2rem;
     font-weight: 300;
-    border-top: 4px solid  rgb(45, 150, 154);
+    border-top: 4px solid  rgb(80, 142, 142);
 
 }
 section h1{
@@ -117,7 +117,7 @@ flex-wrap: wrap;
     margin: 30px;
 
     width: 200px;
-    background-color: rgb(115, 191, 214);
+    background-color: rgb(209, 222, 225);
     border-radius: 20%;
     align-items: center;
 
@@ -126,8 +126,8 @@ flex-wrap: wrap;
 padding: 20px;
 width: 60%;
 position: relative;
-color: white;
-background-color: rgb(4, 0, 255);
+color: rgb(14, 6, 6);
+background-color: rgb(183, 183, 203);
 display: block;
 border-radius: 20%;
 justify-content: space-between;
@@ -135,7 +135,7 @@ justify-content: space-between;
 }
 #certifications{
    margin: 10px 100px;
-    color: rgb(19, 81, 81);
+    color: rgb(40, 118, 118);
     font-size: 2rem;
     font-weight: 300;
     border-top: 4px solid  rgb(45, 150, 154);
@@ -152,8 +152,10 @@ justify-content: space-between;
     margin: 5px;
 }
 #cert:nth-child(2n){
+position: relative;
 margin: 20px 55% 5px;}
 #cert:nth-child(2n+1){
+    position: relative;
     margin: 5px 5% 5px;}
 #time-line{
     position: absolute;
@@ -173,21 +175,28 @@ margin: 20px 55% 5px;}
     background-color: blue;
 }
 #last{
-    border-top: 4px solid rgb(31, 103, 114);
-    margin: 30px 100px;
+    position: relative;
+    border-top: 4px solid rgb(45, 150, 154);
+    margin: 50px 150px;
+
 }
 #last div{
+    width: 100%;
+    position: relative;
+    display: inline-block;
     justify-content: center ;
     font-size: 2rem;
     font-weight: 300;
     border-top: 4px solid  rgb(45, 150, 154);
-    height: 400px;
-    width: 1200px;
-    left: -300px;
     background-image: linear-gradient(rgb(96, 96, 193),rgb(15, 14, 102));
 }
+#last div div{
+position: inherit;
+}
 #text{
+    position: relative;
+    display: inline-block;
     color: white;
     text-align: center;
-    margin-top:100px;
+padding: 20px;
 }
