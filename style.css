@@ -54,12 +54,11 @@
 
 }
 #career_objective{
-color: rgb(241, 239, 244);
-background-color: rgb(63, 122, 173);
+color: rgb(1,7,7);
 font-size: 1.5em;
 word-spacing: 3px;
 font-weight: 200rem;
-font-style: normal;
+font-style: italic;
 padding: 5px;
 }
 #education{
