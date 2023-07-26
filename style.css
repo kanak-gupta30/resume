@@ -1,9 +1,3 @@
-
-
-     
- 
-
-
 .horizontal-list{
     background-image: linear-gradient(rgb(241, 249, 247),rgb(52, 174, 160));
 font-size: 2vw;
@@ -24,8 +18,7 @@ font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;} */
 .horizontal-list li{
     display: inline-block;
     padding: 10px;
-    margin-left: 10px;
-
+margin-top: 10px;
 }
 
 .horizontal-list li a{
@@ -35,7 +28,7 @@ font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;} */
 }
 
 .horizontal-list li a:hover{
-    color: rgb(36, 44, 74);
+    color: rgb(10, 26, 85);
     border-bottom: 1px solid rgb(154, 149, 169) ;
 }
 
@@ -56,18 +49,17 @@ color: white;
     padding: 10px 40px 10px 40px;
     border-top: 4px solid rgb(61, 61, 177);
     text-align: center;
-    border-bottom: 5px solid hwb(187 5% 57%);
+    border-bottom: 5px solid hwb(251 11% 40%);
     font-size: 1.5em;
 
 }
 #contact-details p{
-    background-color: rgb(17, 17, 81);
 padding: 10px;
 border-radius: 10px;
 }
 #career_objective{
 color: hsla(20, 72%, 6%, 0.979);
-background-color: rgb(170, 226, 208);
+background-color:  rgb(75, 137, 137);
 font-size: 2em;
 word-spacing: 3px;
 font-weight: 200rem;
@@ -75,12 +67,27 @@ font-style: normal;
 }
 #career_objective div{
     padding: 10px;
-    background-color: rgb(170, 226, 208);
+    background-color:   rgb(187, 214, 205);
+}
+#career_objective div #career{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 3rem;
+    font-weight: 300;
+color: rgb(3, 3, 29);
+}
+#career_objective div #car{
+    margin:4% 1%;
+    color: white;
+    border-radius: 10%;
+    background-color: rgb(17, 17, 81);
+    border: 4px solid  rgb(75, 137, 137);
+    padding: 10px;
 }
 #education{
     background-color: rgb(75, 137, 137);
     text-align: center;
-    border-top: 5px solid rgb(27, 135, 149);
+    border-top: 5px solid rgb(29, 22, 94);
     color: white;
     font-size: 2em;
     font-weight: 300;
@@ -93,14 +100,14 @@ font-style: normal;
 }
 
 #bca{
-    background-color: rgb(132, 196, 212);
+    background-color:   rgb(187, 214, 205);
 
 width: 250px;    display: inline-block;
 border: 4px solid rgb(227, 236, 236);
 
 }
 #twelth{
-    background-color: rgb(132, 196, 212);
+    background-color: rgb(187, 214, 205);
 
 
     width: 250px;    display: inline-block;
@@ -109,8 +116,7 @@ border: 4px solid rgb(227, 236, 236);
 
 }
 #tenth{
-    background-color: rgb(132, 196, 212);
-
+    background-color:  rgb(187, 214, 205);
 
     width: 250px;    
     display: inline-block;
@@ -122,7 +128,7 @@ border: 4px solid rgb(227, 236, 236);
     color: rgb(1, 7,7);
     font-size: 2em;
     font-weight: 300;
-    background-color: rgb(170, 226, 208);
+    background-color: rgb(187, 214, 205);
     border-top: 4px solid  rgb(17, 101, 101);
 
 }
@@ -140,7 +146,7 @@ flex-wrap: wrap;
     margin: 30px;
 
     width: 200px;
-    background-color: rgb(65, 131, 146);
+    background-color: rgb(17,17,81);
     border-radius: 20%;
     align-items: center;
 
@@ -149,8 +155,8 @@ flex-wrap: wrap;
 padding: 20px;
 width: 60%;
 position: relative;
-color: rgb(14, 6, 6);
-background-color: rgb(123, 183, 215);
+color: rgb(253, 252, 252);
+background-color: rgb(75, 137, 137);
 display: block;
 
 border-radius: 20%;
