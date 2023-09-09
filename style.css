@@ -1,19 +1,28 @@
+
+body{
+    margin: 0px;
+}
+#body-header{
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    background-color:rgb(72, 67, 94);
+
+}
+#body section div{
+    padding: 400px;
+}
+     
+ 
+
+
 .horizontal-list{
-    background-image: linear-gradient(rgb(241, 249, 247),rgb(52, 174, 160));
-font-size: 2vw;
-    height: 250px;
+font-size: 1.5vw;
     text-align: center;
     list-style: none;
-    border: 3px solid rgb(145, 165, 173);
     margin-top: 10px;
 }
-/* .horizontal-list div{
-    background-color: rgb(38, 38, 116);
-    margin: 0px 8px 8px 0px;
-margin-left: -30px;
-margin-top: 10px;
-border-radius: 50px;
-font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;} */
+
 
 .horizontal-list li{
     display: inline-block;
@@ -22,161 +31,230 @@ margin-top: 10px;
 }
 
 .horizontal-list li a{
-    color: rgb(10, 3, 29);
+    color: rgb(254, 254, 254);
     text-decoration: none;
     transition: color 0.5s,border-bottom 4s;
 }
 
 .horizontal-list li a:hover{
-    color: rgb(10, 26, 85);
+    color: rgb(197, 201, 214);
     border-bottom: 1px solid rgb(154, 149, 169) ;
 }
+#body-header #about-contact{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
 
-#image{
-    margin: auto;
-    text-align: center;
-    margin-top: -70px;
 }
-#image img{
-    width: 150px;
-    height: 150px;
+
+#body-header #about-contact #image{
+    margin: 20px;
+    padding-left: 10px;
+    
+}
+#about-contact #contact-details{
+    padding: 20px;
+    color: rgb(251, 250, 250);
+    text-align: center;
+    font-size: 1.5rem;
+}
+#about-contact #contact-details #name{
+    font-size: 2em;
+    font-family: Georgia, 'Times New Roman', Times, serif;    }
+
+
+ #body-header #about-contact #image img{
+    width: 200px;
+    height: 200px;
+    border: 2px solid black;
     border-radius: 50%;
+    margin-right: 10px;
+    margin-top:60px;
     box-shadow: 0px 0px 5px 5px white;
 }
-#contact-details{
-    background-color:  rgb(75, 137, 137);
-color: white;
-    padding: 10px 40px 10px 40px;
-    border-top: 4px solid rgb(61, 61, 177);
-    text-align: center;
-    border-bottom: 5px solid hwb(251 11% 40%);
-    font-size: 1.5em;
 
-}
-#contact-details p{
-padding: 10px;
-border-radius: 10px;
-}
+
 #career_objective{
-color: hsla(20, 72%, 6%, 0.979);
-background-color:  rgb(75, 137, 137);
-font-size: 2em;
+font-size: 1rem;
 word-spacing: 3px;
 font-weight: 200rem;
 font-style: normal;
+margin-top: -10px;
+border: 3px solid rgb(25, 9, 12) ;
 }
 #career_objective div{
-    padding: 10px;
-    background-color:   rgb(187, 214, 205);
+    padding: 100px;
+    background-color:   rgb(237, 244, 242);
 }
-#career_objective div #career{
+#career_objective span {
     text-align: center;
-    margin-top: 20px;
-    font-size: 3rem;
-    font-weight: 300;
+    margin-top: 10px;
+    font-size: 2.5rem;
 color: rgb(3, 3, 29);
+
+font-family: Georgia, 'Times New Roman', Times, serif;
 }
 #career_objective div #car{
-    margin:4% 1%;
-    color: white;
-    border-radius: 10%;
-    background-color: rgb(17, 17, 81);
-    border: 4px solid  rgb(75, 137, 137);
-    padding: 10px;
+    color: rgb(73, 10, 10);
+    border-radius: 20%;
+    padding: 30px;
 }
 #education{
-    background-color: rgb(75, 137, 137);
+    background-color: rgb(242, 230, 230);
     text-align: center;
-    border-top: 5px solid rgb(29, 22, 94);
-    color: white;
+    border: 3px solid rgb(72, 67, 94);
+    color: rgb(12, 2, 2);
     font-size: 2em;
-    font-weight: 300;
+    padding: 100px;
+
+}
+#education h1 span{
+    color: rgb(3, 3, 29);
+    /* display: inline-block; */
+   
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
 }
 #acadmic{
-    display: inline-block;
+    /* display: flex;
+    flex-direction: row;
+    flex-wrap: wrap; */
+    /* display: inline-block; */
     padding: 5px;
-    background-color: rgb(17, 17, 81);
-    color: rgb(4, 17, 21);
+    color: rgb(248, 246, 246);
+    font-family: Georgia, Times, 'Times New Roman', serif;  
+      /* width: 400px;    */
+
 }
 
 #bca{
-    background-color:   rgb(187, 214, 205);
-
-width: 250px;    display: inline-block;
-border: 4px solid rgb(227, 236, 236);
+    background-color: rgb(72, 67, 94);
+margin: 10px;
+width: 250px;
+  display: inline-block;
 
 }
 #twelth{
-    background-color: rgb(187, 214, 205);
+    background-color:rgb(72, 67, 94);
+    margin: 10px;
 
 
-    width: 250px;    display: inline-block;
-    border: 4px solid  rgb(227, 236, 236);
+    width: 250px;   
+     display: inline-block;
 
 
 }
 #tenth{
-    background-color:  rgb(187, 214, 205);
+    background-color: rgb(72, 67, 94);
+    margin: 10px;
 
     width: 250px;    
     display: inline-block;
-    border: 4px solid  rgb(227, 236, 236);
 
 
 }
 #skills{
-    color: rgb(1, 7,7);
+    color: rgb(3, 3, 29);
     font-size: 2em;
     font-weight: 300;
-    background-color: rgb(187, 214, 205);
-    border-top: 4px solid  rgb(17, 101, 101);
+    background-color:   rgb(237, 244, 242);
+    padding: 100px;
 
-}
+    border: 3px solid rgb(72, 67, 94);}
+    #skills h1 span{
+
+
+        font-family: Georgia, 'Times New Roman', Times, serif;    }
 section h1{
     text-align: center;
 }
 #skills #block{
     flex-direction: row;
     justify-content: space-around;
-    display: flex;
-flex-wrap: wrap;
+    display: grid;
+    padding: 5px;
+margin-left: 120px;    text-align: center;
+    justify-content: center;
+grid-template-columns: repeat(2,1fr);
 }
-
+@media only screen and (max-width:600px){
+    #skills #block{
+        flex-direction: row;
+        justify-content: space-around;
+        display: flex;
+        flex-direction: column;
+      padding: 2px;
+      width: 100px;
+      margin-left: -5px;
+    }
+}
 #skills #block #skill{
-    margin: 30px;
+margin:15px;
+border-bottom: 2px solid rgb(73, 10, 10);
 
-    width: 200px;
-    background-color: rgb(17,17,81);
-    border-radius: 20%;
+color:rgb(73, 10, 10);  
+font-family: Georgia, Times, 'Times New Roman', serif;    width: 400px;   
+font-size: 1.5rem;
+    /* background-color: rgb(72, 67, 94); */
+    /* border-radius: 30%; */
     align-items: center;
+    padding: 20px;
 
 }
-#skills #block #skill span{
-padding: 20px;
-width: 60%;
-position: relative;
-color: rgb(253, 252, 252);
-background-color: rgb(75, 137, 137);
-display: block;
-
-border-radius: 20%;
-justify-content: space-between;
-
+@media only screen and (max-width:600px){
+    #skills #block #skill{
+        width: 250px;}
 }
+#project {
+    padding: 100px 20px;
+    background-color: rgb(241, 233, 239);
+    font-size: 2em;
+    border: 3px solid rgb(72, 67, 94);}
+    #project h1 span{
+        color: rgb(3, 3, 29);
+
+        font-family: Georgia, 'Times New Roman', Times, serif;    }
+#project #pro{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+#project #pro div{
+    width: 500px;
+  
+
+margin: 40px;}
+#project #pro div dd{
+    font-weight: bold;
+    
+}
+#project #pro div dl{
+    /* background-color: rgb(72, 67, 94); */
+    color:rgb(73, 10, 10);  
+    font-family: Georgia, Times, 'Times New Roman', serif;
+    padding: 10px;
+    font-size: 1rem;
+border-radius: 20px;}
 #certifications{
-    background-color: rgb(75, 137, 137);
-
-    color: rgb(241, 244, 246);
+    padding: 100px ;
+    background-color: rgb(237, 244, 242);
+padding-bottom: 10px;
     font-size: 2em;
     font-weight: 300;
-    border-top: 4px solid  rgb(33, 88, 90);
-}
+    border: 3px solid rgb(72, 67, 94);}
+    #certifications h1 span{
+        color: rgb(3, 3, 29);
+
+        font-family: Georgia, 'Times New Roman', Times, serif;    }
 #mainblock{
     position: relative;
     display: inline-block;
     flex-direction: row;
     justify-content: space-around;
     display: flex;
+    padding-bottom: 20px;
 flex-wrap: wrap;
 
 }
@@ -197,54 +275,75 @@ align-items: centre;
 
 }
 #cert span div{
-    background-color: rgb(17, 17, 81);
+    background-color:  rgb(72, 67, 94);
     color: rgb(235, 246, 252);
     border-radius:10%;
     padding: 15px;
+    font-size: 1rem;
+    font-family: Georgia, Times, 'Times New Roman', serif;
+
 }
-/* #cert:nth-child(2n){
-position: relative;
-margin: 20px 55% 5px;}
-#cert:nth-child(2n+1){
-    position: relative;
-    margin: 0px 5% 5px;}
-    #time-line{
-        position: absolute;
-        margin-top: -210vh;
-        left: 50%;
-        border: 3px dashed rgb(93, 93, 130);
-        width: 0px;
-        height: 200vh;
-    } */
-/* #indicator{
-    position: absolute;
-    margin-top: -400px;
-    left: 50%;
-    height: 0.5rem;
-    width: 0.5rem;
-    border-radius: 50%;
-    background-color: blue;
-} */
+
+#project{
+    width: 100%;
+}
+#resume{
+    width: auto;
+    padding: 100px 6px;
+    background-color: rgb(251, 248, 250);   
+     border: 3px solid rgb(72, 67, 94);
+     text-align: center;
+font-size: 1.5rem;
+    }
+    #resume h1 span{
+        color: rgb(3, 3, 29);
+        border-bottom: 4px solid;
+
+        font-family: Georgia, 'Times New Roman', Times, serif;   
+    }
+
 #last{
+    height: 400px;
     position: relative;
-    border-top: 4px solid rgb(45, 150, 154);
+background-color: black;
+color: white;
+padding: 80px;
+    border: 3px solid rgb(72, 67, 94);
 
 }
 #last div{
     width: 100%;
-    position: relative;
     display: inline-block;
-    justify-content: center ;
-    font-size: 2rem;
-    font-weight: 300;
-    background-image: linear-gradient(rgb(241, 249, 247),rgb(94, 146, 148));
+    
+    font-size: 1.5rem;
 }
 #last div div{
     position: relative;
 }
+#text span{
+    font-weight: bold;
+    color: rgb(242, 242, 248);
+    border-bottom: 4px solid;
+
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
 #text{
     position: relative;
     display: inline-block;
-    color: rgb(7, 5, 5);
+    color: rgb(248, 242, 242);
     text-align: center;
+    padding: 40px 5px;
+    
 }
+ #foot{
+    width: auto;
+    display: flex;
+    flex-wrap: wrap;
+padding: 15px;
+    justify-content: space-around;
+    background-color: black;
+    margin-top: -150px;
+    position: sticky;
+}
+
